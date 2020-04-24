@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2e437d808c18c5b564249f9cc22ffe94",
+    "revision": "4650adb112149e2a60c86a704d4bcfad",
     "url": "/jumble/index.html"
   },
   {
