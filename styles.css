@@ -16,6 +16,12 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 
+@media only screen and (max-width: 600px) {
+    .yoyo {
+        width: 75%;
+    }
+}
+
 .letter {
     display: inline-block;
 }
