@@ -5,7 +5,6 @@ import Feedback from "./Feedback";
 
 function GameArea(props) {
     const [input, setInput] = useState([]);
-    const [reset, setReset] = useState(false);
     const [clicked, setClicked] = useState(props.word.map(element => false));
 
     function handleClick(event) {
@@ -24,17 +23,8 @@ function GameArea(props) {
 
     function nextWord() {
         setInput([]);
-        setReset(prev => !prev);
-        props.nextWord();
-        setClicked(props.realWord.split("").map(element => false));
-        // setTimeout(changeClicked, 1000);
+        setClicked(props.nextWord().split("").map(element => false));
     }
-
-    // function changeClicked() {
-    //     console.log(props.word);
-        
-    //     setClicked(props.word.map(element => false));
-    // }
 
     const width = 100 / props.word.length;
     const style = {
@@ -42,7 +32,7 @@ function GameArea(props) {
     }
 
     return <div className="container yoyo">{props.word.map((letter, index) => 
-    <Letter reset={reset} clicked={clicked[index]} index={index} style={style} letter={letter} handleClick={handleClick}/>)}
+    <Letter clicked={clicked[index]} index={index} style={style} letter={letter} handleClick={handleClick}/>)}
     <InputArea input={input}/>
     {input.length === props.word.length && 
     <Feedback nextWord={nextWord}

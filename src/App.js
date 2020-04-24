@@ -11,17 +11,17 @@ function App() {
     const word = oldWord.split("");
     const jumbled = [];
     while(word.length > 0) {
-    const index = Math.floor(Math.random() * word.length);
-    const letter = word[index];
-    jumbled.push(letter);
-    word.splice(index, 1);
+      const index = Math.floor(Math.random() * word.length);
+      const letter = word[index];
+      jumbled.push(letter);
+      word.splice(index, 1);
     }
     return jumbled;
   }
 
   function nextWord() {
     setCurrentWord(prev => prev + 1);
-    // return words[currentWord].split("");
+    return currentWord === words.length - 1 ? words[0] : words[currentWord + 1];
   }
 
   function reset() {
