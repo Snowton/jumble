@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/jumble/static/js/main.485d53ba.chunk.js",
-    "main.js.map": "/jumble/static/js/main.485d53ba.chunk.js.map",
+    "main.js": "/jumble/static/js/main.9a0905c7.chunk.js",
+    "main.js.map": "/jumble/static/js/main.9a0905c7.chunk.js.map",
     "runtime-main.js": "/jumble/static/js/runtime-main.64a1f70d.js",
     "runtime-main.js.map": "/jumble/static/js/runtime-main.64a1f70d.js.map",
     "static/js/2.6cf20cb4.chunk.js": "/jumble/static/js/2.6cf20cb4.chunk.js",
     "static/js/2.6cf20cb4.chunk.js.map": "/jumble/static/js/2.6cf20cb4.chunk.js.map",
     "index.html": "/jumble/index.html",
-    "precache-manifest.fea41bceffe9216528c8e225db0bac5e.js": "/jumble/precache-manifest.fea41bceffe9216528c8e225db0bac5e.js",
+    "precache-manifest.517011850f2b070bf1fa6c338f615777.js": "/jumble/precache-manifest.517011850f2b070bf1fa6c338f615777.js",
     "service-worker.js": "/jumble/service-worker.js",
     "static/js/2.6cf20cb4.chunk.js.LICENSE.txt": "/jumble/static/js/2.6cf20cb4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.64a1f70d.js",
     "static/js/2.6cf20cb4.chunk.js",
-    "static/js/main.485d53ba.chunk.js"
+    "static/js/main.9a0905c7.chunk.js"
   ]
 }
