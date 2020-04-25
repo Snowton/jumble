@@ -2,7 +2,7 @@ import React from "react";
 import useMediaQuery from '@material-ui/core/useMediaQuery';
 
 function Feedback(props) {
-    const matches = useMediaQuery('(max-width:768px)');
+    const matches = useMediaQuery('(max-width:900px)');
 
     if (props.success) {
         return <div>
