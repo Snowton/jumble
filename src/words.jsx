@@ -2,7 +2,14 @@ const words = [
     "WORDS",
     "BONJOUR",
     "WORLD",
-    "AGAIN"
+    "AGAIN",
+    "HARMONY",
+    "FINISH",
+    "POUND",
+    "AWESOME",
+    "CLUTCH",
+    "TROUBLE",
+    "TRIUMPH"
 ]
 
 export default words;
