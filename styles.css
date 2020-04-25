@@ -10,7 +10,7 @@ body {
 }
 
 .yoyo {
-    width: 50%;
+    width: 70%;
     padding: 50px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -22,9 +22,9 @@ body {
     }
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (min-width: 1000px) {
     .yoyo {
-        width: 70%;
+        width: 50%;
     }
 }
 
