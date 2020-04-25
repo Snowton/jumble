@@ -22,6 +22,12 @@ body {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .yoyo {
+        width: 70%;
+    }
+}
+
 .letter {
     display: inline-block;
 }

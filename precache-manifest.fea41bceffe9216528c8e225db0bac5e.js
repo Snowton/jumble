@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "766981f94597411c9ead1e84127b1a2f",
+    "revision": "0d77dd2ce37853b31ff81e3d81db9ce4",
     "url": "/jumble/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/jumble/static/js/2.6cf20cb4.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "f64392644361d5a93de4",
-    "url": "/jumble/static/js/main.4df05f27.chunk.js"
+    "revision": "040e71eaafbf6cd49b2d",
+    "url": "/jumble/static/js/main.485d53ba.chunk.js"
   },
   {
     "revision": "45d2dce9ce00992d439f",
